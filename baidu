@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>百度一下，你就知道</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\appleuser\Desktop\js\项目\view\searchEngine、searchengine.css">
+  <style type="text/css">
+  .more-hd{
+  width: 66px;
+  height: 43px;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+}  
+  .more-list .list-item{
+  display: block;
+  text-align: center;
+  width: 66px;
+  height: 76px;
+  border-bottom: 1px solid #f0f0f0;
+  text-decoration: none;
+  font-size: 12px;
+  color: #666;
+  margin: 0 auto;
+}
+  .more-list .list-item span{
+display: block;
+width: 36px;
+height: 36px;
+margin: 10px auto 5px;
+}
+.list-item .nuomi{
+  background-image: url("C:/Users/ou/Desktop/js/项目/view/searchEngine/nuomi_logo.png");
+  background-size: cover;
+}
+.list-item .music{
+  background-image: url("C:/Users/ou/Desktop/js/项目/view/searchEngine/qqjt_logo.png");
+  background-size: cover;
+}
+.list-item .image{
+  background-image: url("C:/Users/ou/Desktop/js/项目/view/searchEngine/image_logo.png");
+  background-size: cover;
+}
+.list-item .zhidao{
+  background-image: url("C:/Users/ou/Desktop/js/项目/view/searchEngine/zhidao_logo.png");
+ background-size: cover;
+}
+.list-item .wenku{
+  background-image: url("C:/Users/ou/Desktop/js/项目/view/searchEngine/wenku_logo.png");
+  background-size: cover;
+}
+.list-item .fengyunbang{
+  background-image: url("C:/Users/ou/Desktop/js/项目/view/searchEngine/fengyunbang_logo.png");
+  background-size: cover;
+}
+.more-produck{
+
+  display: none;
+  position: absolute;
+  top:-85px;
+  right:0;
+  height: 100%;
+  width: 85px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #e7e7e7;
+  z-index: 2;
+}
+.more-produck .ft{
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.ft a{
+  color: #666;
+  font-size: 13px;
+}
+.list-item:hover{
+text-decoration: underline;
+}
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+     <div class="search-nav">
+     <ul>
+     	<li class="bold"><a href="http://news.baidu.com/">新闻</a></li>
+     	<li class="bold"><a href="https://www.hao123.com/">hao12</a></li>
+     	<li class="bold"><a href="https://map.baidu.com/@12609384.2,2631450.58,12z">地图</a></li>
+     	<li class="bold"><a href="https://haokan.baidu.com/?sfrom=baidu-top">视频</a></li>
+     	<li class="bold"><a href="">优酷</a></li>
+     	<li ><a href="">登录</a></li>
+     	<li ><a href="">设置</a></li>
+     	<li class="bold"><a href="https://tieba.baidu.com/index.html">贴吧</a></li>
+     	<li class="search-more"><a href="https://www.baidu.com/more/">更多产品</a></li>
+
+     </ul>
+</div>
+
+<!-- 侧栏 -->
+<div class="more-produck">
+  
+<div class="more-hd">
+  更多产品
+</div>
+
+<div class="more-list">
+  <a href="" class="list-item">
+    <span class="nuomi"></span>糯米
+  </a>
+   <a href="" class="list-item">
+    <span class="music"></span>音乐
+  </a>
+   <a href="" class="list-item">
+    <span class="image"></span>图片
+  </a>
+   <a href="" class="list-item">
+    <span class="zhidao"></span>知道
+  </a>
+ <a href="" class="list-item">
+    <span class="wenku"></span>文库
+  </a>
+   <a href="" class="list-item">
+    <span class="fengyunbang"></span>风云榜
+  </a>
+</div>
+<div class="ft">
+  <a href="">全部产品>></a>
+</div>
+</div>
+
+
+               <div class="search-main"> 
+          <div class="main-img">
+               <img src="http://zhixing.bjtu.edu.cn/attachment/forum/201606/29/161530m3sby6sayistscs3.png" >
+               <div class="main-form">
+                    <form action="http:www.baidu.com/s">
+                         <input type="text" name="wd" class="form-text">
+                         <input type="submit" name="" value="百度一下" class="form-btn">
+                    </form>
+               </div></div>
+</div>
+<div class="footer">
+   <div class="footer-img">
+        <img src="search_img.png">
+        <p>
+             <b>百度</b>
+        </p>
+
+   </div>  
+
+   <div class="footer-mes">
+        <p>
+             <a href="">把百度设置为主页</a>
+             <a href="">关于百度</a>
+             <a href="">About Baidu</a>
+             <a href="">百度推广</a>
+        </p>
+        <p>
+             2009&nbsp;baidu&nbs;
+             <a href="">使用百度前必读</a>      
+             <a href="">意见反馈</a>
+             京ICP证030173号
+             <i class="icon icon-icrlogo" style="width: 14px;
+height: 17px;
+background-image:url('tubiao.png');
+display:inline-block;"></i>
+             <a href="">11000002000001号</a>
+             <i class="icon icon-jclogo" style="background-image:url('tubiao.png')"></i>
+        </p>
+   </div>
+</div>
+
+<script type="text/javascript" src="C:\Users\ou\Desktop\js\项目\js\searchengine.js"></script>
+</body>
+</html>
